@@ -61,7 +61,9 @@ h5{
   flex-direction: column;
 }
 
-
+label{
+  font-size: .8rem;
+ }
 
 
 .btn{
