@@ -3,11 +3,13 @@
   padding: 0;
   font-family:  sans-serif;
 }
+
 body{
   background-color: rgb(148, 148, 148);
   color:#9d3f3f ;
   margin: 2rem 0;
 }
+
 .form{
   margin: auto;
   width: 50%;
@@ -24,7 +26,6 @@ body{
   background-color: white;
   font-weight: bolder;
   text-align: center;
-
 }
 
 h5{
@@ -37,9 +38,11 @@ h5{
   display: flex;
   justify-content: space-between  ;
 }
+
 .h5-name{
   margin-right:10% ;
 }
+
 .date,.name{
   width: 35%; 
   padding: 0.3rem;
@@ -63,16 +66,29 @@ h5{
 
 label{
   font-size: .8rem;
- }
+}
 
+textarea{
+  border: 0;
+  outline: none;
+  margin-top: 0.7rem;
+  padding: 1rem;
+  width: 90%;
+  border-radius: .4rem;
+}
 
 .btn{
   display: flex;
   justify-content: space-around; 
   
 }
+
 .comments{
   margin-top: 5rem;
 }
 
+small{
+  color:rgb(148, 148, 148);
+  margin-top: .5rem;
+}
  

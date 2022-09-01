@@ -9,16 +9,11 @@
 <body>
   <h1 class="title">Follow Up Survey</h1>
 
-  <div class="box">
-    <div class="answer">
-
-    </div>
-  </div>
-
-
   <form>
+
     <div class="form">
 
+      <!-- question1 -->
       <div class="question">
         <div class="d-flex">
           <h5 class="h5-date">When did you use our service?</h5>
@@ -28,43 +23,57 @@
           <input type="date" class="date" id="date">
           <input type="text" class="name" id="name">
         </div>
+        <small>Date</small>
       </div>
+      
 
+      <!-- question2 -->
       <div class="question">
         <h5>Overall, how satisfied are you with the product or service?</h5>
         <div class="d-flex">
+
           <div class="radio">
             <input type="radio" name="satisfied" id="Very-satisfied">
             <label for="Very-satisfied">Very satisfied</label>
           </div>
+
           <div class="radio">
             <input type="radio" name="satisfied" id="satisfied">
             <label for="satisfied">satisfied</label>
           </div>
         </div>
+
         <div class="d-flex">
+
           <div class="radio">
             <input type="radio" name="satisfied" id="neutral">
             <label for="neutral">Neutral</label>
           </div>
+
           <div class="radio">
             <input type="radio" name="satisfied" id="unsatisfied">
             <label for="unsatisfied">unsatisfied</label>
           </div>
+
         </div>
 
         <div class="d-flex">
+
           <div class="radio">
             <input type="radio" name="satisfied" id="Very-unsatisfied">
             <label for="Very-unsatisfied">Very unsatisfied</label>
           </div>
+
           <div class="radio">
             <input type="radio" name="satisfied" id="na">
             <label for="na">N/A</label>
           </div>
+
         </div>
+
       </div>
 
+      <!-- question3 -->
       <div class="question">
         <h5>Did our product or service meet your expectations?</h5>
         <div class="d-flex">
@@ -73,12 +82,13 @@
             <label for="expectations-1" class=" margin-right">Yes </label>
           </div>
           <div class="radio">
-            <input type="radio" name="expectations" id="expectations-2">
+            <input type="radio" name="expectations" id="expectations-2" checked>
             <label for="expectations-2">No</label>
           </div>
         </div>
       </div>
 
+      <!-- question3 -->
       <div class="question">
         <h5>Would you recommend this product or service to a friend? </h5>
         <div class="d-flex">
@@ -87,12 +97,13 @@
             <label for="recommend-1" class=" margin-right">Yes </label>
           </div>
           <div class="radio">
-            <input type="radio" name="recommend" id="recommend-2">
+            <input type="radio" name="recommend" id="recommend-2" checked>
             <label for="recommend-2">No</label>
           </div>
         </div>
       </div>
 
+      <!-- question4 -->
       <div class="question">
         <h5>What aspect of the product or service were you most satisfied by?</h5>
         <div class="d-flex">
@@ -117,6 +128,7 @@
         </div>
       </div>
 
+      <!-- question5 -->
       <div class="question">
         <h5>What aspect of the product or service were you least satisfied by?</h5>
         <div class="d-flex">
@@ -147,11 +159,13 @@
         <textarea rows="5" placeholder="Type here"></textarea>
       </div>
 
+      <!-- button -->
       <div class="btn">
         <input type="submit" value="Submit" class="submit">
       </div>
 
     </div>
+
   </form>
 
 </body>
